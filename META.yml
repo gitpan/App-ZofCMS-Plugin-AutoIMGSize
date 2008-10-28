@@ -1,0 +1,22 @@
+---
+name: App-ZofCMS-Plugin-AutoIMGSize
+version: 0.0101
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: automatically get image sizes and generate appropriate <img> tags
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  HTML::Entities: 1.35
+  Image::Size: 3.100001
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::AutoIMGSize:
+    file: lib/App/ZofCMS/Plugin/AutoIMGSize.pm
+    version: 0.0101
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
