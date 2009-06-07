@@ -1,5 +1,8 @@
 Revision history for App-ZofCMS-Plugin-AutoIMGSize
 
+0.0102  June 7, 2009
+        Fixed a new line in =NAME POD that was breaking the description that showed on CPAN
+
 0.0101  October 27, 2008
         First version, released on an unsuspecting world.
 

@@ -1,6 +1,6 @@
 ---
 name: App-ZofCMS-Plugin-AutoIMGSize
-version: 0.0101
+version: 0.0102
 author:
   - "Zoffix <'zoffix@cpan.org'>"
 abstract: automatically get image sizes and generate appropriate <img> tags
@@ -15,8 +15,8 @@ build_requires:
 provides:
   App::ZofCMS::Plugin::AutoIMGSize:
     file: lib/App/ZofCMS/Plugin/AutoIMGSize.pm
-    version: 0.0101
-generated_by: Module::Build version 0.2808
+    version: 0.0102
+generated_by: Module::Build version 0.33
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4

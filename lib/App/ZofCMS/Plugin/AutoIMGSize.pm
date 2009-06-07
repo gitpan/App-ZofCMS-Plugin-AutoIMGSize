@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::AutoIMGSize;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use HTML::Entities;
 use Image::Size qw/html_imgsize/;
