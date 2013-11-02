@@ -3,10 +3,10 @@ package App::ZofCMS::Plugin::AutoIMGSize;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use HTML::Entities;
-use Image::Size qw/html_imgsize/;
+use Image::Size (qw/html_imgsize/);
 
 sub new { bless {}, shift }
 
@@ -55,6 +55,8 @@ sub process {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

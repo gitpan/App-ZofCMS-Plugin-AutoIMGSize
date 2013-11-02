@@ -16,7 +16,9 @@ my $builder = Module::Build->new(
     requires => {
         'HTML::Entities' => 1.35,
         'Image::Size'    => 3.100001,
+        perl             => 5.006,
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-AutoIMGSize-*' ],
     create_makefile_pl => 'traditional',
 );
